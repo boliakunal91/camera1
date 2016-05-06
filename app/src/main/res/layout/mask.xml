@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+
+
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/imageView_mask"
+        android:layout_gravity="center_vertical"
+        android:layout_above="@+id/button_mask"
+        android:scaleType="centerCrop"/>
+
+
+    <Button
+        android:id="@+id/button_mask"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mask"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+    //android:layout_marginTop="100dp"/>
+
+
+</RelativeLayout>
+
+
+
